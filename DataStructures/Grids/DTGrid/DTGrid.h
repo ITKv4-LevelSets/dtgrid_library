@@ -8,21 +8,21 @@
 #define _grids_dtgrid_h
 
 
-#include <vector>      
+#include <vector>
 #include <iostream>
 #include <string>
 #include <limits>
 
-#include <DataStructures/Matrices/HeaderFiles/Matrix4x4.h>
-#include <Algorithms/Math/Interpolators/HeaderFiles/TrilinearInterpolator.h>
-#include <Algorithms/Math/HeaderFiles/BasicMath.h>
-#include <Core/Exception/HeaderFiles/DefaultException.h>
+#include "Matrix4x4.h"
+#include "TrilinearInterpolator.h"
+#include "BasicMath.h"
+#include "DefaultException.h"
 
-#include <DataStructures/Grids/HeaderFiles/Grids.h>
-#include <DataStructures/Grids/IO/HeaderFiles/SvolSaverFactory.h>
-#include <DataStructures/Grids/IO/HeaderFiles/SvolLoaderFactory.h>
-#include <DataStructures/Grids/IO/HeaderFiles/DTGridConstructor.h>
-#include <DataStructures/Grids/IO/HeaderFiles/SvolSaver_DTTop1.0.h>
+#include "Grids.h"
+#include "SvolSaverFactory.h"
+#include "SvolLoaderFactory.h"
+#include "DTGridConstructor.h"
+#include "SvolSaver_DTTop1.0.h"
 #include "CCUnion.h"
 
 

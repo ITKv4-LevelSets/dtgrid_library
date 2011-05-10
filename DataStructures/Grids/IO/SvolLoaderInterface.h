@@ -9,7 +9,7 @@
 
 #include <string>
 #include <stdlib.h>
-#include <Core/Exception/HeaderFiles/DefaultException.h>
+#include "DefaultException.h"
 
 namespace Grids
 {

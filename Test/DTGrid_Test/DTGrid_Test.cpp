@@ -6,10 +6,10 @@
  *************************************************************************************************/
 #include <string>
 
-#include <DataStructures/Grids/DTGrid/HeaderFiles/DTGrid.h>
-#include <Algorithms/LevelSet/HeaderFiles/LevelSet3D.h>
-#include <Algorithms/LevelSet/ScalarFields/HeaderFiles/MeanCurvatureFlowScalarField3D.h>
-#include <Algorithms/Math/Interpolators/HeaderFiles/TrilinearInterpolator.h>
+#include "DTGrid.h"
+#include "LevelSet3D.h"
+#include "MeanCurvatureFlowScalarField3D.h"
+#include "TrilinearInterpolator.h"
 
 
 using namespace std;

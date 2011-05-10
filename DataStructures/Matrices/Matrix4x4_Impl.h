@@ -9,8 +9,8 @@
 #define _matrix4x4_impl_h
 
 #include <cmath>
-#include "../../Vectors/HeaderFiles/Vector3.h"
-#include "../../Vectors/HeaderFiles/Vector4.h"
+#include "Vector3.h"
+#include "Vector4.h"
 
 
 

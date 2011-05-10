@@ -8,7 +8,7 @@
 #ifndef _levelset_velocityfield3d_h
 #define _levelset_velocityfield3d_h
 
-#include <Core/Exception/HeaderFiles/DefaultException.h>
+#include "DefaultException.h"
 
 namespace LevelSet
 {

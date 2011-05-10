@@ -10,7 +10,7 @@
 #include <string>
 #include <stdlib.h>
 #include <stdio.h>
-#include <Core/Exception/HeaderFiles/DefaultException.h>
+#include "DefaultException.h"
 #include <errno.h>
 
 namespace Grids

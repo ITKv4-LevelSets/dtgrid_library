@@ -10,7 +10,7 @@
 #include <string>
 #include <fcntl.h>
 #include "SvolSaverInterface.h"
-#include <Core/Exception/HeaderFiles/DefaultException.h>
+#include "DefaultException.h"
 
 #ifndef WIN32
 

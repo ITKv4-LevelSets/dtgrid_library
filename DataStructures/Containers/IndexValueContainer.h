@@ -8,7 +8,7 @@
 #ifndef _containers_indexvaluecontainer_h
 #define _containers_indexvaluecontainer_h
 
-#include <DataStructures/Arrays/HeaderFiles/Array1D.h>
+#include "Array1D.h"
 #include <iostream>
 #include <fstream>
 

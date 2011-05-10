@@ -11,11 +11,11 @@
 #include <sstream>
 #include <string>
 
-#include <Core/Exception/HeaderFiles/DefaultException.h>
-#include <DataStructures/Grids/HeaderFiles/Grids.h>
-#include <Algorithms/LevelSet/VelocityFields/HeaderFiles/VelocityField3D.h>
-#include <Algorithms/LevelSet/ScalarFields/HeaderFiles/ScalarField3D.h>
-#include <Algorithms/Math/HeaderFiles/BasicMath.h>
+#include "DefaultException.h"
+#include "Grids.h"
+#include "VelocityField3D.h"
+#include "ScalarField3D.h"
+#include "BasicMath.h"
 
 
 namespace LevelSet

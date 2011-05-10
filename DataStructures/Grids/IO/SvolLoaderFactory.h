@@ -9,7 +9,7 @@
 
 #include <iostream>
 #include <fstream>
-#include <Core/Exception/HeaderFiles/DefaultException.h>
+#include "DefaultException.h"
 #include "SvolLoaderInterface.h"
 #include "SvolLoader_DTTop1.0.h"
 
