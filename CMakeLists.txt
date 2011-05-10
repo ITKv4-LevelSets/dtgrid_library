@@ -19,3 +19,20 @@ include_directories( BEFORE
 
 add_executable( test Test/DTGrid_Test/DTGrid_Test.cpp )
 
+option( BUILD_DOCUMENTATION "Build doxygen documentation" OFF )
+
+if( BUILD_DOCUMENTATION )
+  find_package( Doxygen )
+
+  if( DOXYGEN_FOUND )
+    configure_file( ${dtgrid_SOURCE_DIR}/Doxyfile.in
+      ${dtgrid_BINARY_DIR}/Doxyfile
+      )
+
+    add_custom_target( doc ALL
+      ${DOXYGEN_EXECUTABLE} ${dtgrid_BINARY_DIR}/Doxyfile
+      DEPENDS ${dtgrid_BINARY_DIR}/Doxyfile
+      )
+
+  endif()
+endif()
