@@ -1,0 +1,4 @@
+04-04-2010: Version 0.92 Fixed bugs in MeshToDTGrid. Previously failed on binary ply files.
+22-10-2009: Version 0.91 MacOS support added.
+20-10-2009: Version 0.90 Initial Distribution.
+

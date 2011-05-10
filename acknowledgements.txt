@@ -1,0 +1,22 @@
+Acknowledgements:
+
+I am truly indebted to my PhD advisor Ken Museth. 
+Without his ideas, guidance and encouragement this software package would not have been possible.
+
+I am also grateful to my collaborators and fellow students for discussions, suggestions and feedback over the years.
+In alphabetical order:
+
+Christopher Batty
+Anders Brodersen
+Brian Bunch Christensen
+Tommy Hinks
+Ben Houston
+Gunnar Läthen
+Ken Museth
+Oliver Nemitz
+Ola Nilsson
+Doug Roble
+Martin Rumpf
+Andreas Söderström
+Ross Whitaker
+Nafees Bin Zafar
