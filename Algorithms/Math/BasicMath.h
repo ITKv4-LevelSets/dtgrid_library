@@ -10,7 +10,7 @@
 
 #define _USE_MATH_DEFINES   // M_PI etc in math.h
 #include <math.h>
-
+#include <cstdlib>
 
 namespace Math
 {

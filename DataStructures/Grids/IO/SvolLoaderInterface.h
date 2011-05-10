@@ -7,7 +7,7 @@
 #ifndef _grids_svolloaderinterface_h_
 #define _grids_svolloaderinterface_h_
 
-#include <string>
+#include <cstring>
 #include <stdlib.h>
 #include "DefaultException.h"
 
